@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<body>
+    <header class="header">
+        <a href="#" target="_blank" class="logo">WEBDEVELOPMENT</a>
+        <nav class="navigation">
+            <ul class="list">
+                <li><a href="file:///G:/Mahesh%20Bhandari/Mahesh%20class%20XI/index.html#" class="navbar-link"> Home </a></li>
+                <li><a href="file:///G:/Mahesh%20Bhandari/Mahesh%20class%20XI/about%20page.html" class="navbar-link"> About </a></li>
+                <li><a href="file:///G:/Mahesh%20Bhandari/Mahesh%20class%20XI/Firstresweb.html#" class="navbar-link"> Gallery </a></li>
+                <li><a href="file:///G:/Mahesh%20Bhandari/Mahesh%20class%20XI/service.html#" class="navbar-link"> Services </a></li>
+                <li><a href="file:///G:/Mahesh%20Bhandari/Mahesh%20class%20XI/self.html#" class="navbar-link"> Contact </a></li>
+                <li><a href="#" class="button" onclick="back()">Back</a></li>
+              </ul>
+        </nav>
+        <div class="mobile">
+
+            <i name="menu" id="bar" class="fa fa-bars" aria-hidden="true"></i>
+              <i name="close" id="cross" class="fa fa-times" aria-hidden="true"></i>
+          </div>
+    </header>
+            <main>
+               
+                <section>
+                <div class="registration">
+<form action="">
+    <marquee bgcolor="" scrollamount="14"><b>FILL THE FORM BELOW</b></marquee>
+    Your Name: <input type="text" id="name" autocomplete="off"><br><br>
+    <span id="names"></span>
+    DOB:<input type="date" id="date"><br><br>
+    <span id="dates"></span>
+    Email:<input type="email" placeholder="@gmail.com" required id="email" autocomplete="off"><br><br>
+    <span id="emails"></span>
+    Address(Parmanent):<select>
+     <option>Provience 1</option>
+     <option>Madesh Pradesh</option>
+     <option>Bagmati</option>
+     <option>Gandaki</option>
+     <option>lumbini</option>
+     <option>Karnali</option>
+     <option>Provience 7</option>
+    </select><br><br>
+ Sceret Code:<input type="password" id="pass"><br>
+ <span id="passs1"></span>
+ <br>
+ Sceret Code(confirm):<input type="password" id="passc"><br>
+ <span id="passs2"></span>
+
+ <fieldset>
+   
+     Gender:<input type="radio" name="Gender" value="male" id="gender">male
+     <input type="radio" name="Gender" value="Female" id="gender">Female<br>
+     <span id="genders"></span>
+     your programming Skill:<input type="checkbox">Java
+     <input type="checkbox">JavaScript
+     <input type="checkbox">C++<br>
+     <pre>
+                                       <input type="checkbox">C#   <input type="checkbox">PHP           <input type="checkbox">Python</pre>
+    
+ </fieldset>
+ <button type="Submit" value="submit" id="sub">Submit</button>
+ <button type="reset" value="Reset">Reset</button>
+</form>
+<h1 id="wait"></h1>
+            </div>
+                <footer>
+                    <div class="cpy"><h3><i class="fa fa-copyright" aria-hidden="true"></i> Mahesh Bhandari</h3></div>
+                </footer>
+            </section>
+            </main>
+<script src="login.js"></script>
+   
+</body>
+</html>
