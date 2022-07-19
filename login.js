@@ -61,11 +61,14 @@ submit.addEventListener('click',func);
 
 const navs=document.querySelector(".mobile");
 const head=document.querySelector(".header");
-
+const clicked=document.querySelector("section");
 const togs=()=>{
 head.classList.toggle("acts");
 }
-
+clicked.addEventListener('click',()=>{
+    head.classList.remove("acts");
+}
+ );
 navs.addEventListener('click',togs);
 
 
