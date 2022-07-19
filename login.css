@@ -135,7 +135,7 @@ footer{
         position: absolute;
         background-color: var(--primary-shades);
         height: 100vh;
-        width: 100%;
+        width: 55%;
         top: 0;
         left: 0;
         align-content: center;
@@ -167,7 +167,6 @@ footer{
     
    }
    .acts .navigation{
-    transform: translateX(0%);
     visibility: visible;
     opacity: 885;
     z-index: 99;
